@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'Freestyle-script';
+    src: url('fonts/FREESCPT.TTF');
 }
 body {
  font-family: freestyle-script;
