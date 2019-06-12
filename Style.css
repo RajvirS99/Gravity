@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Freestyle-script';
+    src: url('/fonts/FREESCPT.TTF');
+}
+body {
+ font-family: freestyle-script;
+ color: #707070;
+}
+
+.grid_container_1{
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2px;
+}
+
+.grid_item_1{
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 5px 0 0 20px;
+  /* text-align: center; */
+}
+
+.grid_container_2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+.grid_item_2{
+    text-align: center;
+}
+p.music_detail{
+    font-size: 90px;
+}
+.footer{
+    background-color: #2E2E2E;
+    height: 450px;
+}
+
+.grid_footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid_footer_item{
+
+}
+
+.footer-options{
+    margin-top: -2%;
+}
